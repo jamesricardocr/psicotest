@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+}
+
+
+/* Stylos de el intro de la app */
+
+.container {
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-row: 1fr 1fr;
+    text-align: center;
+    align-items: center;
+    margin: 10px;
+}
+
+.logo-juan {
+    width: 50px;
+    height: 50px;
+}
+
+.animacion {
+    width: 250px;
+    height: 250px;
+    transform: rotate(360deg);
+    transition: 2000ms;
+}
+
+#logo-smart {
+    width: 113px;
+    height: 55px;
+}
+
+
+/* Stylos de las paginas  */
+
+.container-principal {
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-row: 1fr 1fr;
+    text-align: center;
+}
